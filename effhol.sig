@@ -9,5 +9,5 @@ and : form -> form -> form
 implies : form -> form -> form
 all : (term -> form) -> form
 
-holds : "list" (term) -> term -> form
+holds : "list (term) -> term -> form
 
