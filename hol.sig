@@ -8,5 +8,5 @@ bot : form
 and : form -> form -> form
 implies : form -> form -> form
 all : (bind term in form) -> form
-holds : "list" (term) -> term -> form
+holds : term -> "list" (term) -> form
 
